@@ -1,0 +1,61 @@
+:root {
+    --Primaire : #FD2D01;
+    --Secondaire : #FFD7D7;
+    --Tertiaire : #4E5166;
+    margin: 5%
+}
+
+.groupomania{
+    background-color: #FFD7D7;
+    color: #4E5166;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    border: solid 5rem #FD2D01;
+    height: 50%;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-right: 10%;
+    margin: 10% 10% 15% 5%;
+}
+
+.groupomania :hover {
+    
+}
+body{
+    background-color: whitesmoke;
+}
+.connection{
+border: solid 1rem #FFD7D7;
+/* display: flex; */
+align-content: flex-end;
+/* flex-wrap: nowrap; */
+/* flex-direction: row; */
+/* justify-content: flex-end; */
+width: 10%;
+background-color: whitesmoke;
+padding: 10% 5% 3% 3%;
+}
+
+.connection_block{
+    
+    display: flex;
+    align-content: space-between;
+    justify-content: space-around; 
+
+
+}
+
+.Home{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    border: solid 2rem #FFD7D7;
+}
